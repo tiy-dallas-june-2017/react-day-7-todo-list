@@ -1,0 +1,39 @@
+body {
+  background-color: #EEE;
+}
+
+.app {
+  background-color: #FFF;
+  margin: 0 auto;
+  max-width: 600px;
+  padding: 10px;
+}
+
+input {
+  box-sizing: border-box;
+  padding: 10px;
+  width: 100%;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  border: solid 1px #777;
+  list-style-type: none;
+  padding: 10px;
+
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+
+.done {
+  color: blue;
+  text-decoration: line-through;
+}
